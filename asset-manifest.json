@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SafeH2O4-UI/static/css/main.ead67ce3.css",
+    "main.js": "/SafeH2O4-UI/static/js/main.93ec3e6a.js",
+    "static/js/453.3385ac41.chunk.js": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js",
+    "static/media/img3.png": "/SafeH2O4-UI/static/media/img3.2f8e8d937884b754c0bc.png",
+    "static/media/img2.png": "/SafeH2O4-UI/static/media/img2.952c9302fb25f1fb6374.png",
+    "static/media/img1.png": "/SafeH2O4-UI/static/media/img1.88fef85baec40c74100c.png",
+    "static/media/aboutvector.svg": "/SafeH2O4-UI/static/media/aboutvector.1893724dd03eb014bef78604c5e97b74.svg",
+    "static/media/navimg.png": "/SafeH2O4-UI/static/media/navimg.615a40b19c5d23c57820.png",
+    "static/media/instagram.png": "/SafeH2O4-UI/static/media/instagram.1311da613ef132f9f3bd.png",
+    "index.html": "/SafeH2O4-UI/index.html",
+    "main.ead67ce3.css.map": "/SafeH2O4-UI/static/css/main.ead67ce3.css.map",
+    "main.93ec3e6a.js.map": "/SafeH2O4-UI/static/js/main.93ec3e6a.js.map",
+    "453.3385ac41.chunk.js.map": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead67ce3.css",
+    "static/js/main.93ec3e6a.js"
+  ]
+}
