@@ -1,0 +1,47 @@
+/* src/components/MiddlePage/MainPg.css */
+
+.main-page {
+  display: flex;
+  height: 100vh;
+}
+
+.quote-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.quote {
+  font-family: "Rouge Script", cursive;
+  font-size: 4em;
+  text-align: center;
+}
+
+.image-scroller {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

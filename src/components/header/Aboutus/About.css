@@ -1,0 +1,28 @@
+.about {
+  /* border: 1px solid black; */
+  /* margin: 10px; */
+  height: 90vh;
+  /* width: 99%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #55daff; */
+  padding: 0 3px 0 3px;
+}
+.aboutimg {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
+
+.aboutcontent {
+  font-family: sans-serif;
+}
+.aboutcontent p {
+  padding: 10px 40px 10px 0;
+  font-size: 20px;
+}
+
+.aboutcontent h1 {
+  letter-spacing: 1.5px;
+}

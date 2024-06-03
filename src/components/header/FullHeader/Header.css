@@ -1,0 +1,31 @@
+header {
+  height: 100px;
+  width: full;
+  /* margin: 20px 0 0 0; */
+  background-color: #7fe6fb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+}
+ul {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: space-around;
+}
+
+.socialicons {
+  height: 50px;
+  width: 50px;
+}
