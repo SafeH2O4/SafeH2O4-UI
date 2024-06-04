@@ -2,13 +2,14 @@
   height: 90vh;
   /* width: calc(100% - 20px); */
   overflow-y: auto;
-  /* background-color: #55daff; */
+  background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 
 .product {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+
   justify-content: flex-start;
   padding: 10px;
   width: calc(100% - 20px);

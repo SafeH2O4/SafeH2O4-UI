@@ -1,8 +1,7 @@
-/* src/components/MiddlePage/MainPg.css */
-
 .main-page {
   display: flex;
   height: 100vh;
+  background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 
 .quote-section {
@@ -11,7 +10,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
 .quote {

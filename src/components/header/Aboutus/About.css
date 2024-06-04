@@ -8,6 +8,7 @@
   align-items: center;
   /* background-color: #55daff; */
   padding: 0 3px 0 3px;
+  background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 .aboutimg {
   height: 100%;
