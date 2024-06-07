@@ -1,7 +1,6 @@
-// import logo from "./logo.svg";
 import "./App.css";
-import Header from "../src/components/header/FullHeader/Header";
-import Main from "../src/components/MiddlePage/MainPg";
+import Header from "./components/header/FullHeader/Header";
+import Main from "./components/MiddlePage/MainPg";
 import About from "./components/header/Aboutus/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./components/header/Product/Product";

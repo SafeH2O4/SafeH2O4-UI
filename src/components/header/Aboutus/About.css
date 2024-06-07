@@ -1,12 +1,8 @@
 .about {
-  /* border: 1px solid black; */
-  /* margin: 10px; */
   height: 90vh;
-  /* width: 99%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #55daff; */
   padding: 0 3px 0 3px;
   background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
@@ -26,4 +22,34 @@
 
 .aboutcontent h1 {
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1500px) {
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .aboutimg {
+    height: 80%;
+    width: 50%;
+    margin: 10px 0;
+  }
+
+  .aboutcontent {
+    text-align: center;
+    width: 100%;
+  }
+
+  .aboutcontent p {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .aboutcontent h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
 }

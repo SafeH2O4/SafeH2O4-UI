@@ -1,11 +1,11 @@
 header {
   height: 100px;
   width: full;
-  /* margin: 20px 0 0 0; */
   background-color: #92ecfd;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 a {
@@ -32,4 +32,21 @@ ul {
 .socialicons {
   height: 50px;
   width: 50px;
+}
+
+@media screen and (max-width: 1500px) {
+  img {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+  }
+
+  .socialicons {
+    height: 40px;
+    width: 40px;
+  }
+
+  ul {
+    width: 75;
+  }
 }
