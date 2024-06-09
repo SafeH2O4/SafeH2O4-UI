@@ -1,71 +1,77 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Product/Product.css";
 import product from "../../../../src/components/header/Product/img1.png";
 import product2 from "../../../../src/components/header/Product/img2.png";
 import product3 from "../../../../src/components/header/Product/img3.png";
 
+import Formp from "../../Form/Forms";
+
 const products = [
   {
     id: 1,
     image: product,
-    name: "Aquaguard premier",
+    name: "Aquaguard EVO",
     type: "Ro + uv",
-    price: 9500,
+    price: 3400,
   },
   {
     id: 2,
     image: product2,
     name: "Aquaguard premier",
     type: "Ro + uv",
-    price: 9500,
+    price: 1200,
   },
   {
     id: 3,
     image: product3,
-    name: "Aquaguard premier",
+    name: "Aquaguard Keyhouse",
     type: "Ro + uv",
-    price: 9500,
+    price: 7600,
   },
   {
     id: 4,
     image: product,
-    name: "Aquaguard premier",
+    name: "Aquaguard Mighty",
     type: "Ro + uv",
-    price: 9500,
+    price: 8774,
   },
   {
     id: 5,
     image: product2,
-    name: "Aquaguard premier",
+    name: "Aquaguard Green",
     type: "Ro + uv",
-    price: 9500,
+    price: 5633,
   },
   {
     id: 6,
     image: product3,
-    name: "Aquaguard premier",
+    name: "Aquaguard Gold",
     type: "Ro + uv",
-    price: 9500,
+    price: 8000,
   },
   {
     id: 7,
     image: product,
-    name: "Aquaguard premier",
+    name: "Aquaguard Fog",
     type: "Ro + uv",
-    price: 9500,
+    price: 6100,
   },
   {
     id: 8,
     image: product,
-    name: "Aquaguard premier",
+    name: "Aquaguard Mist",
     type: "Ro + uv",
-    price: 9500,
+    price: 5999,
   },
 ];
 
 const Product = () => {
-  const handleBuyNowClick = () => {
-    alert("Thank you for your purchase!");
+  const [openForm, setOpenForm] = useState(false);
+  const [selectedProductName, setSelectedProductName] = useState("");
+
+  const handleBuyNowClick = (product) => {
+    setSelectedProductName(product.name);
+    setOpenForm(true);
   };
 
   return (
@@ -81,10 +87,15 @@ const Product = () => {
             <h3>{product.name}</h3>
             <h4>{product.type}</h4>
             <h1>{product.price}</h1>
-            <button onClick={handleBuyNowClick}>Buy now</button>
+            <button className="formBtn" onClick={() => handleBuyNowClick(product)}>
+              Buy now
+            </button>
           </div>
         ))}
       </div>
+      {openForm && (
+        <Formp closeForm={() => setOpenForm(false)} productName={selectedProductName} />
+      )}
     </div>
   );
 };

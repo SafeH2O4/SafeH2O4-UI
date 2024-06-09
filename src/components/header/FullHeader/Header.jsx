@@ -15,7 +15,7 @@ const Header = () => {
       <ul>
         <Link to="/about">About us</Link>
         <Link to="/product">Product</Link>
-        <Link to="/service request">Service Request</Link>
+        <Link to="/request">Service Request</Link>
         <li>
           <SocialIcon url="https://www.facebook.com" className="socialicons" />
         </li>

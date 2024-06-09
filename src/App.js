@@ -14,7 +14,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/about" element={<About />} />
           <Route path="/product" element={<Product />} />
-          <Route path="/service request" element={<Main />} />
+          <Route path="/request" element={<Main />} />
         </Routes>
       </div>
     </Router>
