@@ -28,17 +28,19 @@ function Formp({ closeForm, productName }) {
 
         <div className="body">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <label htmlFor="cusName">Customer Name</label>
+            <label class="input-group__label" htmlFor="cusName">Customer Name</label>
             <input 
+             class="input-group__input"
               type="text" 
               id="cusName" 
               {...register("cusName", { required: "Customer name is required" })} 
             />
-            {errors.cusName && <p className="error">{errors.cusName.message}</p>}
-            <br />
+            <span class="input-group__error"> {errors.cusName && <p className="error">{errors.cusName.message}</p>}</span>
 
-            <label htmlFor="cusPhoneNum">Phone Number</label>
+
+            <label class="input-group__label" htmlFor="cusPhoneNum">Phone Number</label>
             <input 
+              class="input-group__input"
               type="text" 
               id="cusPhoneNum" 
               {...register("cusPhoneNum", { 
@@ -49,13 +51,15 @@ function Formp({ closeForm, productName }) {
                 }
               })} 
             />
-            {errors.cusPhoneNum && <p className="error">{errors.cusPhoneNum.message}</p>}
-            <br />
+            <span class="input-group__error"> {errors.cusPhoneNum && <p className="error">{errors.cusPhoneNum.message}</p>}</span>
+        
 
-            <label htmlFor="email">Email Id</label>
+            <label class="input-group__label" htmlFor="email">Email Id</label>
             <input 
+              class="input-group__input"
               type="email" 
               id="email" 
+              placeholder="SAFEH2O4@gamil.com"
               {...register("email", { 
                 required: "Email is required",
                 pattern: {
@@ -64,21 +68,23 @@ function Formp({ closeForm, productName }) {
                 }
               })} 
             />
-            {errors.email && <p className="error">{errors.email.message}</p>}
-            <br />
+            <span class="input-group__error"> {errors.email && <p className="error">{errors.email.message}</p>}</span>
+      
 
-            <label htmlFor="product">Product Requested:</label>
+            <label class="input-group__label" htmlFor="product">Product Requested:</label>
             <input 
+              class="input-group__input"
               type="text" 
               id="product" 
               value={productName} 
               {...register("product")} 
               readOnly 
             />
-            <br />
+            
 
-            <label htmlFor="quantity">Quantity</label>
+            <label class="input-group__label" htmlFor="quantity">Quantity</label>
             <input 
+              class="input-group__input"
               type="number" 
               id="quantity" 
               {...register("quantity", { 
@@ -87,23 +93,24 @@ function Formp({ closeForm, productName }) {
                 max: { value: 10, message: "Maximum quantity is 10" }
               })} 
             />
-            {errors.quantity && <p className="error">{errors.quantity.message}</p>}
-            <br />
+            <span class="input-group__error"> {errors.quantity && <p className="error">{errors.quantity.message}</p>}</span>
+            
 
-            <label htmlFor="date">Preferred Delivery Date</label>
-            <input 
+            <label class="input-group__label" htmlFor="date">Preferred Delivery Date</label>
+            <input
+              class="input-group__input" 
               type="date" 
               id="date" 
               {...register("date", { required: "Preferred delivery date is required" })} 
             />
-            {errors.date && <p className="error">{errors.date.message}</p>}
-            <br />
+            <span class="input-group__error"> {errors.date && <p className="error">{errors.date.message}</p>}</span>
+          
 
             <div className="footer">
               <button type="button" onClick={() => closeForm(false)} id="cancelBtn">
                 Cancel
               </button>
-              <button type="submit">Place Order</button>
+              <button type="submit" >Place Order</button>
             </div>
           </form>
           <DevTool control={control} />

@@ -1,4 +1,12 @@
-.formbackground{
+@keyframes error-shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.formbackground {
   position: fixed;
   top: 0rem;
   left: 0rem;
@@ -9,13 +17,12 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
-
 }
 
 .formContainer {
-  width: 500px;
-  height: 500px;
-  border-radius: 12px;
+  max-width: auto;
+  max-height: auto;
+  border-radius: 2rem;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
@@ -23,27 +30,44 @@
   padding: 25px;
   justify-content: center;
 }
-label{
-  font-weight: bold;
-  font-size: 16px;
-  display: flex;
-  justify-content: last baseline;
+
+.input-group {
+  margin-bottom: 200rem;
 }
 
-input[type="Text"],
-input[type="string"],
-input[type="email"],
-input[type="number"],
-input[type="number"]{
-  display: rgb(95, 93, 93);
+.input-group__label {
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: baseline;
+}
+
+.input-group__input {
+  display: block;
   width: 400px;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.1;
-  color:black;
+  color: black;
   background-image: none;
-  border: 1px solid#ccc;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
 
+.input-group__input:focus {
+  outline-offset: 3px;
+}
+
+.input-group__error {
+  color: red;
+  display: block;
+  margin-top: 5px;
+  font-size: 0.8rem;
+}
+
+.input-group__input:invalid {
+  border: 2px solid red;
+  animation: error-shake 600ms;
 }
 
 .formContainer .title {
@@ -63,7 +87,6 @@ input[type="number"]{
   font-size: 25px;
   cursor: pointer;
 }
-
 
 .formContainer .body {
   flex: 50%;
