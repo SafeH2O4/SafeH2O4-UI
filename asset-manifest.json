@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cart-react/static/css/main.bf075352.css",
-    "main.js": "/cart-react/static/js/main.d974bcee.js",
-    "static/js/453.3385ac41.chunk.js": "/cart-react/static/js/453.3385ac41.chunk.js",
-    "static/media/img3.png": "/cart-react/static/media/img3.2f8e8d937884b754c0bc.png",
-    "static/media/img2.png": "/cart-react/static/media/img2.952c9302fb25f1fb6374.png",
-    "static/media/img1.png": "/cart-react/static/media/img1.88fef85baec40c74100c.png",
-    "static/media/aboutvector.svg": "/cart-react/static/media/aboutvector.1893724dd03eb014bef78604c5e97b74.svg",
-    "static/media/logo1.jpg": "/cart-react/static/media/logo1.91e0bceccc3cca853217.jpg",
-    "index.html": "/cart-react/index.html",
-    "main.bf075352.css.map": "/cart-react/static/css/main.bf075352.css.map",
-    "main.d974bcee.js.map": "/cart-react/static/js/main.d974bcee.js.map",
-    "453.3385ac41.chunk.js.map": "/cart-react/static/js/453.3385ac41.chunk.js.map"
+    "main.css": "/SafeH2O4-UI/static/css/main.bf075352.css",
+    "main.js": "/SafeH2O4-UI/static/js/main.860729cf.js",
+    "static/js/453.3385ac41.chunk.js": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js",
+    "static/media/img3.png": "/SafeH2O4-UI/static/media/img3.2f8e8d937884b754c0bc.png",
+    "static/media/img2.png": "/SafeH2O4-UI/static/media/img2.952c9302fb25f1fb6374.png",
+    "static/media/img1.png": "/SafeH2O4-UI/static/media/img1.88fef85baec40c74100c.png",
+    "static/media/aboutvector.svg": "/SafeH2O4-UI/static/media/aboutvector.1893724dd03eb014bef78604c5e97b74.svg",
+    "static/media/logo1.jpg": "/SafeH2O4-UI/static/media/logo1.91e0bceccc3cca853217.jpg",
+    "index.html": "/SafeH2O4-UI/index.html",
+    "main.bf075352.css.map": "/SafeH2O4-UI/static/css/main.bf075352.css.map",
+    "main.860729cf.js.map": "/SafeH2O4-UI/static/js/main.860729cf.js.map",
+    "453.3385ac41.chunk.js.map": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf075352.css",
-    "static/js/main.d974bcee.js"
+    "static/js/main.860729cf.js"
   ]
 }
