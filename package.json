@@ -1,4 +1,5 @@
 {
+  "homepage": "http://SafeH2O4.github.io/cart-react",
   "name": "SafeH2O4",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,6 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "gh": "^2.8.9",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.5",
@@ -17,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh -pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,12 +42,12 @@
     ]
   },
   "devDependencies": {
-    "@hookform/devtools": "^4.3.1",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "@hookform/devtools": "^4.3.1"
   }
 }
