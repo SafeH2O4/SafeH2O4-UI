@@ -12,7 +12,7 @@ function Formp({ closeForm, productName }) {
     console.log("Form data:", data);
     // Close the form after submission
     closeForm(false);
-    alert("Order placed successfully!!");
+    alert("Order placed !!");
   };
 
   return (
