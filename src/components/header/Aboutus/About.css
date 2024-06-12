@@ -1,9 +1,10 @@
 .about {
-  height: 90vh;
+  height: 110vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3px 0 3px;
+  padding: 0 4px 0 4px;
+  padding-top: 50px;
   background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 .aboutimg {
