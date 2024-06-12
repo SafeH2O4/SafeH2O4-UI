@@ -4,6 +4,7 @@ import Main from "./components/MiddlePage/MainPg";
 import About from "./components/header/Aboutus/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./components/header/Product/Product";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
