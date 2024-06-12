@@ -1,5 +1,5 @@
 {
-  "homepage": "http://SafeH2O4.github.io/cart-react",
+  "homepage": "http://SafeH2O4.github.io/SafeH2O4-UI",
   "name": "SafeH2O4",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh -pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -51,6 +51,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "typescript": "^4.4.2"
   }
 }
