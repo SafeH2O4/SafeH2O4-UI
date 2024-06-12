@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Product/Product.css";
 import product1 from "../../../../src/components/header/Product/img4.jpg";
 import product2 from "../../../../src/components/header/Product/img6.jpg";
