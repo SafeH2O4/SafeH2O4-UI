@@ -13,9 +13,10 @@ function Footer() {
       </div>
       <div className="footer-right">
         <h2>Contact Us</h2>
-        <p>Address: 123 Main Street, City, Country</p>
-        <p>Email: contact@example.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Rajesh R</p>
+        <p>Address: 123 Main Street, Chennai,Tamil Nadu</p>
+        <p>Email: safeh2o4@gmail.com</p>
+        <p>Phone: +91 95786 77236</p>
       </div>
     </footer>
   );
