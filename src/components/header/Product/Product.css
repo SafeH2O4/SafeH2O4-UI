@@ -1,8 +1,9 @@
 .product-wrapper {
-  margin-top: 100px;
+  padding-top: 100px;
   height: 240vh;
   overflow-y: auto;
   background-image: linear-gradient(to right, #cdffd8, #94b9ff);
+  padding-bottom: 100px;
 }
 
 .product {
