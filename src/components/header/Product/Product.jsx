@@ -122,7 +122,7 @@ const Product = () => {
   const [selectedProductName, setSelectedProductName] = useState("");
 
   const handleBuyNowClick = (product) => {
-    setSelectedProductName(product.name);
+    setSelectedProductName(product.name+" "+product.type);
     setOpenForm(true);
   };
 

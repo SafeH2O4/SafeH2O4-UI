@@ -43,11 +43,21 @@
   width: 400px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 1.1;
   color: black;
   background-image: none;
   border: 1px solid #ccc;
   margin-top: 5px;
+}
+
+.input-group__textarea {
+  display: block;
+  width: 25rem;
+  padding: 6px 12px;
+  font-size: 1rem;
+  line-height: 1.1;
+  color: black;
+  border: 1px solid #ccc;
+  margin-top: 1%;
 }
 
 .input-group__input:not(:focus):invalid {
