@@ -52,8 +52,32 @@ button:hover {
   background-color: #0056b3;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 869px) {
   .productcontent {
-    flex: 0 0 calc(50% - 20px);
+    flex: 0 0 calc(33.33% - 20px);
+    .product-img {
+      height: 280px;
+      width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+    .productcontent {
+      flex: 0 0 calc(50% - 20px);
+    }
+    .product-img {
+      height: 240px;
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 397px) {
+    .productcontent {
+      flex: 0 0 calc(100% - 20px);
+    }
+    .product-img {
+      height: 200px;
+      width: 180px;
+    }
   }
 }
