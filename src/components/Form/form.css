@@ -14,8 +14,6 @@
 }
 
 .formContainer {
-  max-width: auto;
-  max-height: auto;
   border-radius: 2rem;
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -31,7 +29,6 @@
   font-weight: bold;
   font-size: 1rem;
   display: flex;
-  justify-content: baseline;
 }
 
 .input-group {
@@ -150,3 +147,53 @@
 #cancelBtn {
   background-color: crimson;
 }
+
+/*media*/
+.formContainer .body {
+  flex: 50% 1;
+  display: flow;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+ @media screen and (max-width: 680px) {
+   form{
+    padding-bottom: 5rem;
+   }
+  .input-group__input {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+
+  .input-group__input{
+    font-size: 0.6rem;
+    padding-left: 0rem;
+    width:15rem
+  }
+  .formContainer{
+    width: 17rem;
+    height: 35rem;
+  }
+
+  .formContainer .title {
+    /* display: inline-block; */
+    text-align: center;
+    /* margin-top: 10px; */
+    padding-bottom: 0rem;
+  }
+  .formContainer .footer button {
+    width: 5rem;
+    height: 2rem;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    /* color: white; */
+    border-radius: 8px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+ }

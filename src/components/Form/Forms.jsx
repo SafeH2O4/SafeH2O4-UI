@@ -123,7 +123,7 @@ function Formp({ closeForm, productName }) {
           
             <label className="input-group__label" htmlFor="custMessage">Message</label>
             <input
-              className="input-group__textarea"
+              className="input-group__input"
               type="text"
               id="custMessage"
               placeholder="Please type your query here.."
