@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SafeH2O4-UI/static/css/main.a404c01e.css",
-    "main.js": "/SafeH2O4-UI/static/js/main.b688899b.js",
+    "main.css": "/SafeH2O4-UI/static/css/main.0dd00d54.css",
+    "main.js": "/SafeH2O4-UI/static/js/main.8693d141.js",
     "static/js/453.3385ac41.chunk.js": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js",
     "static/media/img4.jpg": "/SafeH2O4-UI/static/media/img4.4c53b2c5a88c0d2821d0.jpg",
     "static/media/img6.jpg": "/SafeH2O4-UI/static/media/img6.d13861c0a3ca110319d9.jpg",
@@ -19,12 +19,12 @@
     "static/media/logo1.jpg": "/SafeH2O4-UI/static/media/logo1.91e0bceccc3cca853217.jpg",
     "static/media/img22.jpg": "/SafeH2O4-UI/static/media/img22.8e0fd4e5f0c6fd1b7904.jpg",
     "index.html": "/SafeH2O4-UI/index.html",
-    "main.a404c01e.css.map": "/SafeH2O4-UI/static/css/main.a404c01e.css.map",
-    "main.b688899b.js.map": "/SafeH2O4-UI/static/js/main.b688899b.js.map",
+    "main.0dd00d54.css.map": "/SafeH2O4-UI/static/css/main.0dd00d54.css.map",
+    "main.8693d141.js.map": "/SafeH2O4-UI/static/js/main.8693d141.js.map",
     "453.3385ac41.chunk.js.map": "/SafeH2O4-UI/static/js/453.3385ac41.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a404c01e.css",
-    "static/js/main.b688899b.js"
+    "static/css/main.0dd00d54.css",
+    "static/js/main.8693d141.js"
   ]
 }
