@@ -10,47 +10,35 @@
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0 20px 0 20px;
+  padding: 20px 20px 0 200px;
 }
 
 .quote {
-  font-family: "Rouge Script", cursive;
-  font-size: 4em;
+  font-family: "Rouge Script", cursive, bold;
+  font-size: 4.5em;
   text-align: center;
 }
 
-.image-scroller {
-  flex: 1;
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel {
-  margin-top: 10%;
-  height: 75%;
-  margin-bottom: 10%;
-  margin-right: 10%;
-}
-
-.carousel-inner {
-  height: 100%;
-}
-
-.carousel-item img {
-  height: 600px;
-  width: 200px;
-  /* object-fit: fill; */
+@media (max-width: 1039px) {
+  .quote {
+    font-size: 4em;
+  }
 }
 
 @media (max-width: 768px) {
   .quote {
-    font-size: 2em;
+    font-size: 3em;
+  }
+  .quote-section {
+    padding: 40px 20px 0 60px;
   }
 }
 
 @media (max-width: 480px) {
   .quote {
-    font-size: 1.5em;
+    font-size: 2em;
+  }
+  .quote-section {
+    padding: 20px 20px 0 60px;
   }
 }

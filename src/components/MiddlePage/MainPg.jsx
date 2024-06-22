@@ -12,8 +12,13 @@ const MainPg = () => {
   return (
     <div className="main-page">
       <div className="quote-section">
-        <p className="quote">Transform Your Tap: Taste the Difference.</p>
-        <ImageSider />
+        <p className="quote">
+          Transform Your Tap: <br />
+          Taste the Difference.
+        </p>
+        <div>
+          <ImageSider />
+        </div>
       </div>
       <div>
         <About />

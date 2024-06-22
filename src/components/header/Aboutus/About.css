@@ -41,14 +41,14 @@
   .aboutcontent {
     padding: 0 10px 0 25px;
 
-    .aboutcontent h1 {
-      font-size: 25px;
-      padding: 0 50px 0 100px;
-    }
-
     .aboutcontent p {
       padding: 10px, 5px;
       font-size: 20px;
     }
+  }
+}
+@media screen and (max-width: 264px) {
+  .aboutcontent p {
+    font-size: 12px;
   }
 }
