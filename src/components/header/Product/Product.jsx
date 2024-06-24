@@ -98,21 +98,21 @@ const products = [
     id: 10,
     image: images[9],
     name: "Aquaguard Ultra",
-    type: "RO + UV + Mineral",
+    type: "RO + Mineral",
     price: 9500,
   },
   {
     id: 11,
     image: images[10],
     name: "Aquaguard Max",
-    type: "RO + UV",
+    type: "RO ",
     price: 9500,
   },
   {
     id: 12,
     image: images[11],
     name: "Aquaguard Pro",
-    type: "RO + UV + UF",
+    type: "RO er2eftfrx+ UF",
     price: 9500,
   },
 ];
@@ -122,7 +122,7 @@ const Product = () => {
   const [selectedProductName, setSelectedProductName] = useState("");
 
   const handleBuyNowClick = (product) => {
-    setSelectedProductName(product.name+" "+product.type);
+    setSelectedProductName(product.name + " " + product.type);
     setOpenForm(true);
   };
 

@@ -1,10 +1,13 @@
 import React from "react";
 import "./About.css";
-import Aboutus from "../Aboutus/aboutvector.svg";
-
+// import Aboutus from "../Aboutus/aboutvector.svg";
+import Aboutus from "../Aboutus/abtus.jpg";
 const About = () => {
   return (
     <div className="about">
+      <div className="tagline">
+        <h2>Ensuring Pure and Safe Water for Your Family</h2>
+      </div>
       <img className="aboutimg" src={Aboutus} alt="" />
       <div className="aboutcontent">
         <h1>About us</h1>

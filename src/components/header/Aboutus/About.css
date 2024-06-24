@@ -7,10 +7,24 @@
   background-image: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 
-.aboutimg {
-  height: 100%;
-  width: 100%;
+.tagline {
+  text-align: center;
+
+  padding-top: 140px;
+}
+
+.tagline h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
   margin: 20px;
+}
+
+.aboutimg {
+  height: 50%;
+  width: 60%;
+  margin: 100px;
+  padding-bottom: 20px;
 }
 
 .aboutcontent {

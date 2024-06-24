@@ -13,10 +13,13 @@ function Footer() {
       </div>
       <div className="footer-right">
         <h2>Contact Us</h2>
-        <p>Rajesh R</p>
-        <p>Address: 123 Main Street, Chennai,Tamil Nadu</p>
-        <p>Email: safeh2o4@gmail.com</p>
-        <p>Phone: +91 95786 77236</p>
+        <p>SAFEH2O4U RO WATER PURIFIER </p>
+        <p>Bollineni hillside phase 2</p>
+        <p>Sithalapakkam post</p>
+        <p>Chennai</p>
+        <p>Tamilnadu</p>
+        <p>Pin: 600126</p>
+        <a href="http://Wa.me/+917012587405">Contact us: +91 70125 87405</a>
       </div>
     </footer>
   );
