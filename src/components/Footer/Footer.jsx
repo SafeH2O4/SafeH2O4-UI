@@ -16,10 +16,9 @@ function Footer() {
         <p>SAFEH2O4U RO WATER PURIFIER </p>
         <p>Bollineni hillside phase 2</p>
         <p>Sithalapakkam post</p>
-        <p>Chennai</p>
-        <p>Tamilnadu</p>
+        <p>Chennai, Tamilnadu</p>
         <p>Pin: 600126</p>
-        <a href="http://Wa.me/+917012587405">Contact us: +91 70125 87405</a>
+        <a href="http://Wa.me/+917012587405">Whatsapp: +91 70125 87405</a>
       </div>
     </footer>
   );
